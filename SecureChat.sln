@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureChat", "SecureChat\SecureChat.csproj", "{FE7532D0-E729-4D63-B561-801E336EC19C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{33B1DE89-E273-429B-98C2-0D653A339B40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketServer", "WebSocketServer\WebSocketServer.csproj", "{B8878915-DDC8-43BF-A27A-9C3E94E187DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FE7532D0-E729-4D63-B561-801E336EC19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE7532D0-E729-4D63-B561-801E336EC19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE7532D0-E729-4D63-B561-801E336EC19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE7532D0-E729-4D63-B561-801E336EC19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B1DE89-E273-429B-98C2-0D653A339B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B1DE89-E273-429B-98C2-0D653A339B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B1DE89-E273-429B-98C2-0D653A339B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B1DE89-E273-429B-98C2-0D653A339B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8878915-DDC8-43BF-A27A-9C3E94E187DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8878915-DDC8-43BF-A27A-9C3E94E187DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8878915-DDC8-43BF-A27A-9C3E94E187DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8878915-DDC8-43BF-A27A-9C3E94E187DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
