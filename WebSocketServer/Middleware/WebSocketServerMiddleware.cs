@@ -8,9 +8,9 @@ namespace WebSocketServer.Middleware;
 public class WebSocketServerMiddleware
 {
     private readonly RequestDelegate _next;
-    private readonly WebSocketServerConnectionManager _manager;
+    private readonly ConnectionManager _manager;
 
-    public WebSocketServerMiddleware(RequestDelegate next, WebSocketServerConnectionManager manager)
+    public WebSocketServerMiddleware(RequestDelegate next, ConnectionManager manager)
     {
         _next = next;
         _manager = manager;

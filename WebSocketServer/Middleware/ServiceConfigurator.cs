@@ -1,15 +1,15 @@
 namespace WebSocketServer.Middleware;
 
-public static class WebSocketServerMiddlewareExtension
+public static class ServiceConfigurator
 {
     public static IApplicationBuilder UseWebSocketServer(this IApplicationBuilder builder)
     {
-        return builder.UseMiddleware<WebSocketServerMiddleware>();
+        return builder.UseMiddleware<Middleware2>();
     }
 
     public static IServiceCollection AddWebSocketManager(this IServiceCollection service)
     {
-        service.AddSingleton<ConnectionManager>();
+        service.AddSingleton<ConnectionHandler>();
         return service;
     }
 }

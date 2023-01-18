@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\Clie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketServer", "WebSocketServer\WebSocketServer.csproj", "{B8878915-DDC8-43BF-A27A-9C3E94E187DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketServer.Common", "WebSocketServer.Common\WebSocketServer.Common.csproj", "{081FD4C8-DD56-4E6C-BF17-E782F361E9B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{B8878915-DDC8-43BF-A27A-9C3E94E187DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8878915-DDC8-43BF-A27A-9C3E94E187DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8878915-DDC8-43BF-A27A-9C3E94E187DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081FD4C8-DD56-4E6C-BF17-E782F361E9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081FD4C8-DD56-4E6C-BF17-E782F361E9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081FD4C8-DD56-4E6C-BF17-E782F361E9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081FD4C8-DD56-4E6C-BF17-E782F361E9B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
